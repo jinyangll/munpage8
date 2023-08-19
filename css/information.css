@@ -1,0 +1,40 @@
+.information {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 25px;
+
+}
+
+.first-box {
+    margin: 20px 20px 0px;
+    padding-top: 10px;
+    border-top: #594327 1px solid;
+}
+.first-box a {
+    color: #594327;
+    font-size: 25px;
+    
+}
+.ragdoll-img {
+    float: left;
+    margin: 20px;
+}
+p {
+    margin: 20px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #594327;
+}
+.second-box, .third-box, .forth-box {
+    margin: 20px 20px 0px;
+    clear: both;
+}
+.subtitle {
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+footer {
+    content: '';
+    height: 70px;
+}

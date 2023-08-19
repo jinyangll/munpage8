@@ -1,0 +1,42 @@
+.gallery {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+#gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#gallery img:hover{
+    overflow: hidden;
+    transition: 0.5s;
+    transform: scale(1.2)
+}
+
+/* #gallery img:active {
+
+} */
+
+.bottom {
+    content: '';
+    width: auto;
+    height: 50px;
+}
+.container {
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+}
+@media(max-width: 500px) {
+    #gallery img{
+        width: 180px;
+    }
+    .container{
+        width: 180px;
+        height: 180px;
+    }
+    
+}
